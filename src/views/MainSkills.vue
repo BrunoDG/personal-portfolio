@@ -9,10 +9,12 @@
         </h2>
         <br />
         <p class="lg:text-lg text-sm text-justify leading-6">
-          &nbsp;&nbsp;&nbsp;&nbsp; Aaron is a full-stacked developer focused on
-          <strong> VueJS and PHP Laravel </strong>. He also possess soft skills
-          to further enhance himself as a web developer with skills such as
-          communication skills, creativity, problem solving, and adaptability.
+          &nbsp;&nbsp;&nbsp;&nbsp; Bruno is a full-stack web developer focused
+          on
+          <strong>VueJS and Typescript</strong> and also a game developer mainly
+          using <strong>Unity3D and Godot Engine</strong>. He also possess soft
+          skills to further enhance himself as a developer such as
+          communication, creativity, problem solving, and adaptability.
         </p>
       </div>
       <br />

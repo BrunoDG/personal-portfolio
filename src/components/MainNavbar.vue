@@ -6,7 +6,7 @@
 
       <div>
         <h1 class="text-4xl font-bold headers">
-          <router-link to="/" @click="scrollTop">Aaron</router-link>
+          <router-link to="/" @click="scrollTop">Bruno Dias</router-link>
         </h1>
       </div>
       <div class="text-2xl inline-block px-10 pt-[0.4rem]">
@@ -44,7 +44,7 @@
       <div>
         <h1 class="text-3xl font-bold sm:-ml-[0px]">
           <router-link to="/" @click="scrollTop" class="scroll-smooth">
-            Aaron
+            Bruno Dias
           </router-link>
         </h1>
       </div>
