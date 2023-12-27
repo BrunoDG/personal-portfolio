@@ -80,7 +80,13 @@ export default {
 	data() {
 		return {
 			skillData: Skills,
-			typeOfSkill: ['frontend', 'backend', 'tools'],
+			typeOfSkill: [
+				'frontend',
+				'backend',
+				'tools',
+				'Platforms',
+				'game development'
+			],
 			isSkillActive: {
 				frontend: false,
 				backend: false,
@@ -110,6 +116,12 @@ export default {
 				break;
 			case 2:
 				this.selectedTech = 'tools';
+				break;
+			case 3:
+				this.selectedTech = 'Platforms';
+				break;
+			case 4:
+				this.selectedTech = 'game development';
 				break;
 			}
 		},

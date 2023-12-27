@@ -44,10 +44,10 @@
       </h2>
       <br />
       <p class="lg:text-lg text-sm text-justify leading-6">
-        &nbsp;&nbsp;&nbsp;&nbsp; Bruno has a strong passion on technology as a
-        whole. Outside of programmimg, He has a hobby of collecting videogames
-        and engaging with technology. He likes to tinker with electronics,
-        Arduino, create his own MIDI controllers and also is a musician and a
+        &nbsp;&nbsp;&nbsp;&nbsp; I have a strong passion on technology as a
+        whole. Outside of programmimg, I have a hobby of collecting videogames
+        and engaging with technology. I like to tinker with electronics,
+        Arduino, create my own MIDI controllers and I'm also a musician and a
         writer that not only writes technical articles, but science fiction
         books and tales as well.
       </p>
@@ -64,7 +64,7 @@
         <!-- year 2010 -->
         <p class="lg:text-lg text-sm text-left">
           <strong>2010:</strong>
-          &nbsp; Got his first development experience as an intern, working with
+          &nbsp; Got my first development experience as an intern, working with
           Objective-C and iOS development
         </p>
         <!-- year 2012 -->
@@ -78,7 +78,7 @@
         <!-- year 2014 -->
         <p class="lg:text-lg text-sm text-left">
           <strong>2014:</strong>
-          &nbsp; Has his first Game Development experience as an internship,
+          &nbsp; Had my first Game Development experience as an internship,
           working for SENAI CTS Benfica at a simulation platform using Unity3D
           Game Engine, C#, PHP and MySQL
         </p>
@@ -93,7 +93,7 @@
         <!-- year 2017 -->
         <p class="lg:text-lg text-sm text-left">
           <strong>2017:</strong>
-          &nbsp; Got his Bachelor in Computer Sciences at UERJ - Rio de Janeiro
+          &nbsp; Got my Bachelor in Computer Sciences at UERJ - Rio de Janeiro
           State University
         </p>
         <!-- year 2018 -->
@@ -140,7 +140,9 @@
           &nbsp; Returned to Rio de Janeiro and started working as a Backend
           Typescript Developer for FS Studio, based in California, USA. Worked
           with a web3 game engine called Needle Engine, which uses Three.JS,
-          Typescript and Unity3D as its main scene visualizer
+          Typescript and Unity3D as its main scene visualizer. I've also started
+          to work as a senior .Net backend developer at GoToBiz, working for
+          Dannemann Siemsen.
         </p>
       </div>
     </section>

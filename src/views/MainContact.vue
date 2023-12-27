@@ -9,9 +9,9 @@
       <br />
       <p class="lg:text-lg text-sm text-justify leading-6">
         &nbsp;&nbsp;&nbsp;&nbsp; Do you need an experienced and versatile
-        developer to make your ideas become a reality? You found the right
-        person for the job! Don't hesitate on contacting me, I'll get in touch
-        as soon as possible.
+        developer to make your ideas become real? You found the right person for
+        the job! Don't hesitate on contacting me, I'll get in touch as soon as
+        possible.
       </p>
       <p class="lg:text-lg text-sm text-justify leading-6">
         You can reach me through my

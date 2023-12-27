@@ -3,10 +3,6 @@
         "type": "frontend",
         "technologies": [
             {
-                "title": "React",
-                "image": "devicon-react-original"
-            },
-            {
                 "title": "Vue",
                 "image": "devicon-vuejs-plain"
             },
@@ -17,6 +13,10 @@
             {
                 "title": "Javascript (ES6)",
                 "image": "devicon-javascript-plain"
+            },
+            {
+                "title": "Typescript",
+                "image": "devicon-typescript-plain"
             },
             {
                 "title": "HTML5",
@@ -40,20 +40,28 @@
                 "image": "devicon-python-plain"
             },
             {
+                "title": "Django",
+                "image": "devicon-django-plain"
+            },
+            {
                 "title": "Node",
                 "image": "devicon-nodejs-plain"
             },
             {
-                "title": "Java",
-                "image": "devicon-java-plain"
+                "title": "Typescript",
+                "image": "devicon-typescript-plain"
             },
             {
-                "title": "MongoDB",
-                "image": "devicon-mongodb-plain"
+                "title": "C#",
+                "image": "devicon-csharp-plain"
             },
             {
-                "title": "Laravel",
-                "image": "devicon-laravel-plain"
+                "title": "Supabase",
+                "image": "devicon-supabase-original"
+            },
+            {
+                "title": "AWS",
+                "image": "devicon-amazonwebservices-plain"
             }
         ]
     },
@@ -65,16 +73,98 @@
                 "image": "devicon-markdown-original"
             },
             {
-                "title": "Vim",
-                "image": "devicon-vim-plain"
+                "title": "VS Code",
+                "image": "devicon-vscode-plain"
             },
             {
-                "title": "Figma",
-                "image": "devicon-figma-plain"
+                "title": "Arduino",
+                "image": "devicon-arduino-plain"
             },
             {
-                "title": "Linux (Arch)",
+                "title": "Git",
+                "image": "devicon-git-plain"
+            },
+            {
+                "title": "BitBucket",
+                "image": "devicon-bitbucket-plain"
+            },
+            {
+                "title": "GitHub",
+                "image": "devicon-github-plain"
+            }
+        ]
+    },
+    {
+        "type": "Platforms",
+        "technologies": [
+            {
+                "title": "Raspberry Pi",
+                "image": "devicon-raspberrypi-line"
+            },
+            {
+                "title": "Ubuntu",
+                "image": "devicon-ubuntu-plain"
+            },
+            {
+                "title": "Debian",
+                "image": "devicon-debian-plain"
+            },
+            {
+                "title": "Linux (RISC-V)",
                 "image": "devicon-linux-plain"
+            },
+            {
+                "title": "Mac OS",
+                "image": "devicon-apple-plain"
+            },
+            {
+                "title": "Windows",
+                "image": "devicon-windows8-plain"
+            },
+            {
+                "title": "",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "type": "game development",
+        "technologies": [
+            {
+                "title": "Unity3D",
+                "image": "devicon-unity-original"
+            },
+            {
+                "title": "Godot",
+                "image": "devicon-godot-plain"
+            },
+            {
+                "title": "Unreal Engine",
+                "image": "devicon-unrealengine-plain"
+            },
+            {
+                "title": "C#",
+                "image": "devicon-csharp-plain"
+            },
+            {
+                "title": "C++",
+                "image": "devicon-cplusplus-plain"
+            },
+            {
+                "title": "C",
+                "image": "devicon-c-plain"
+            },
+            {
+                "title": "OpenGL",
+                "image": "devicon-opengl-plain"
+            },
+            {
+                "title": "Vulkan",
+                "image": "devicon-vulkan-plain"
+            },
+            {
+                "title": "Blender",
+                "image": "devicon-blender-original"
             }
         ]
     }
