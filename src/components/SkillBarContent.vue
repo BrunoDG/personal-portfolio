@@ -80,17 +80,13 @@ export default {
 	data() {
 		return {
 			skillData: Skills,
-			typeOfSkill: [
-				'frontend',
-				'backend',
-				'tools',
-				'Platforms',
-				'game development'
-			],
+			typeOfSkill: ['Frontend', 'Backend', 'Tools', 'Platforms', 'Game Dev'],
 			isSkillActive: {
-				frontend: false,
-				backend: false,
-				tools: false
+				Frontend: false,
+				Backend: false,
+				Tools: false,
+				Platforms: false,
+				GameDev: false
 			},
 			isHoveringNavbar: false,
 			selectedTech: this.currentSelectedTechnology(0),
@@ -109,19 +105,19 @@ export default {
 		currentSelectedTechnology(index) {
 			switch (index) {
 			case 0:
-				this.selectedTech = 'frontend';
+				this.selectedTech = 'Frontend';
 				break;
 			case 1:
-				this.selectedTech = 'backend';
+				this.selectedTech = 'Backend';
 				break;
 			case 2:
-				this.selectedTech = 'tools';
+				this.selectedTech = 'Tools';
 				break;
 			case 3:
 				this.selectedTech = 'Platforms';
 				break;
 			case 4:
-				this.selectedTech = 'game development';
+				this.selectedTech = 'Game Dev';
 				break;
 			}
 		},

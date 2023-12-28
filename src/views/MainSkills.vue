@@ -10,11 +10,11 @@
         <br />
         <p class="lg:text-lg text-sm text-justify leading-6">
           &nbsp;&nbsp;&nbsp;&nbsp; I'm a full-stack web developer focused on
-          <strong>VueJS and Typescript</strong> and a game developer mainly
-          using <strong>Unity3D, Godot</strong> and starting
-          <strong>Unreal Engine</strong> projects. I also have soft skills to
-          further enhance myself as a developer such as communication,
-          creativity, problem solving, and adaptability.
+          <strong>VueJS and Javascript</strong> and a game developer mainly
+          using <strong>Unity3D</strong> on professional projects, but also
+          using <strong>Godot and Unreal Engine</strong> on personal projects. I
+          also have soft skills to further enhance myself as a developer such as
+          communication, creativity, problem solving, and adaptability.
         </p>
       </div>
       <br />

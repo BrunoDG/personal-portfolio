@@ -21,7 +21,6 @@
   import * as THREE from 'three';
   import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
   import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-  import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js';
   import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js';
 
   /* eslint-enable */
@@ -43,23 +42,15 @@ export default {
 			return platform ? 5 : 3;
 		};
 
-		//const scene = new THREE.Scene();
-		// const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 		const camera = new THREE.PerspectiveCamera(75, 2, 0.1, 1000);
 		camera.position.x = 30;
 		camera.position.y = 20;
 		camera.position.z = 30;
 
-		//loader
-		// const dracoLoader = new DRACOLoader();
-		// dracoLoader.setDecoderPath( 'js/libs/draco/gltf/' );
-
 		const loader = new GLTFLoader();
-		// loader.setDRACOLoader( dracoLoader );
 		loader.load(
 			' ./web/source/laptop.glb',
 			function (gltf) {
-				// loader.load( './src/assets/room/scene.gltf', function ( gltf ) {
 				const model = gltf.scene;
 
 				// position the model from the camera
@@ -74,19 +65,11 @@ export default {
 			},
 			undefined,
 			function (error) {
-				// console.error(error);
-				// comment this for debugging
 				this.$router.push('notfound');
 			}
 		);
 
-		// const renderer = new THREE.WebGLRenderer();
-		// renderer.setSize( window.innerWidth, window.innerHeight );
-
-		// add to HTML viewer
-		// const container = document.body;
 		const container = document.getElementById('threejs-container');
-		//container.appendChild( renderer.domElement ); // may need to change to append this on the right element
 
 		// three js renderer and size on the element
 		const renderer = new THREE.WebGLRenderer(
@@ -94,7 +77,6 @@ export default {
 			{ alpha: true }
 		);
 		renderer.setPixelRatio(window.devicePixelRatio);
-		// renderer.setSize( window.innerWidth, window.innerHeight );
 		renderer.outputEncoding = THREE.sRGBEncoding;
 		renderer.setSize(450, 450 / 2); // size
 		renderer.shadowMap.enabled = true;
@@ -120,16 +102,11 @@ export default {
 
 		light.shadow.mapSize.width = 512; // default
 		light.shadow.mapSize.height = 512; // default
-		// light.shadowCameraLeft = -30;
-		// light.shadowCameraRight = 30;
-		// light.shadowCameraTop = 35;
-		// light.shadowCameraBottom = -30;
 		scene.add(light);
 		scene.add(light.target);
 
 		// helpers
 		const controls = new OrbitControls(camera, renderer.domElement); // allow users to view around the model
-		// controls.enablePan = false;
 		controls.enableDamping = true; // adds a physic effect of "inertia" when spinning camera
 		controls.maxPolarAngle = Math.PI / 2 - 0.3; // don't let user view below the ground, 0.3 is slightly above the base level
 		controls.minDistance = 10; // don't let user zoom too close
@@ -145,13 +122,9 @@ export default {
 		const gridHelper = new THREE.GridHelper(200, 50); // add a grid
 		// light helper
 		const helper = new THREE.DirectionalLightHelper(light, 5);
-		// scene.add( gridHelper );
-		// scene.add( helper );
 
 		const animate = () => {
 			requestAnimationFrame(animate);
-
-			// cube.rotation.x += 0.01;
 
 			const width = window.innerWidth / 2;
 			const height = window.innerHeight / 2;
@@ -163,22 +136,6 @@ export default {
 			renderer.render(scene, camera);
 		};
 		animate();
-
-		// setup loading page
-		// document.onreadystatechange = function () {
-		// 	var state = document.readyState
-		// 	if (state == 'interactive') {
-		// 		document.getElementById('threejsContainer').classList.add(hidden);
-		// 	}
-		// 	else if (state == 'complete') {
-		// 		setTimeout(function(){
-		// 			// document.getElementById('interactive');
-		// 			document.getElementById('loading').classList.add('hidden');
-		// 			document.getElementById('threejsContainer').classList.remove('hidden');
-		// 		},
-		// 		50);
-		// 	}
-		// };
 	}
 };
 </script>

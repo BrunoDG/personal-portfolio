@@ -1,10 +1,14 @@
 [
     {
-        "type": "frontend",
+        "type": "Frontend",
         "technologies": [
             {
                 "title": "Vue",
                 "image": "devicon-vuejs-plain"
+            },
+            {
+                "title": "Nuxt JS",
+                "image": "devicon-nuxtjs-plain"
             },
             {
                 "title": "ThreeJS",
@@ -15,10 +19,6 @@
                 "image": "devicon-javascript-plain"
             },
             {
-                "title": "Typescript",
-                "image": "devicon-typescript-plain"
-            },
-            {
                 "title": "HTML5",
                 "image": "devicon-html5-plain"
             },
@@ -27,46 +27,86 @@
                 "image": "devicon-css3-plain"
             },
             {
+                "title": "bootstrap",
+                "image": "devicon-bootstrap-plain"
+            },
+            {
                 "title": "Tailwind",
                 "image": "devicon-tailwindcss-plain"
+            },
+            {
+                "title": "JQuery",
+                "image": "devicon-jquery-plain"
+            },
+            {
+                "title": "Flutter",
+                "image": "devicon-flutter-plain"
             }
         ]
     },
     {
-        "type": "backend",
+        "type": "Backend",
         "technologies": [
             {
                 "title": "Python",
                 "image": "devicon-python-plain"
             },
             {
-                "title": "Django",
-                "image": "devicon-django-plain"
-            },
-            {
-                "title": "Node",
-                "image": "devicon-nodejs-plain"
+                "title": "C#",
+                "image": "devicon-csharp-plain"
             },
             {
                 "title": "Typescript",
                 "image": "devicon-typescript-plain"
             },
             {
-                "title": "C#",
-                "image": "devicon-csharp-plain"
+                "title": "Django",
+                "image": "devicon-django-plain"
             },
             {
-                "title": "Supabase",
-                "image": "devicon-supabase-original"
+                "title": "FastAPI",
+                "image": "devicon-fastapi-plain"
+            },
+            {
+                "title": "Node JS",
+                "image": "devicon-nodejs-plain"
+            },
+            {
+                "title": "NPM",
+                "image": "devicon-npm-original-wordmark"
             },
             {
                 "title": "AWS",
                 "image": "devicon-amazonwebservices-plain"
+            },
+            {
+                "title": "Bash",
+                "image": "devicon-bash-plain"
+            },
+            {
+                "title": ".NET Core",
+                "image": "devicon-dotnetcore-plain"
+            },
+            {
+                "title": "MySQL",
+                "image": "devicon-mysql-plain"
+            },
+            {
+                "title": "SQLite",
+                "image": "devicon-sqlite-plain"
+            },
+            {
+                "title": "MS SQL Server",
+                "image": "devicon-microsoftsqlserver-plain"
+            },
+            {
+                "title": "Wordpress",
+                "image": "devicon-wordpress-plain"
             }
         ]
     },
     {
-        "type": "tools",
+        "type": "Tools",
         "technologies": [
             {
                 "title": "Markdown",
@@ -77,6 +117,10 @@
                 "image": "devicon-vscode-plain"
             },
             {
+                "title": "XCode",
+                "image": "devicon-xcode-plain"
+            },
+            {
                 "title": "Arduino",
                 "image": "devicon-arduino-plain"
             },
@@ -85,12 +129,36 @@
                 "image": "devicon-git-plain"
             },
             {
-                "title": "BitBucket",
-                "image": "devicon-bitbucket-plain"
-            },
-            {
                 "title": "GitHub",
                 "image": "devicon-github-plain"
+            },
+            {
+                "title": "GitLab",
+                "image": "devicon-gitlab-plain"
+            },
+            {
+                "title": "CMake",
+                "image": "devicon-cmake-plain"
+            },
+            {
+                "title": "LaTeX",
+                "image": "devicon-latex-plain"
+            },
+            {
+                "title": "docker",
+                "image": "devicon-docker-plain"
+            },
+            {
+                "title": "Kubernetes",
+                "image": "devicon-kubernetes-plain"
+            },
+            {
+                "title": "Trello",
+                "image": "devicon-trello-plain"
+            },
+            {
+                "title": "JIRA",
+                "image": "devicon-jira-plain"
             }
         ]
     },
@@ -120,15 +188,11 @@
             {
                 "title": "Windows",
                 "image": "devicon-windows8-plain"
-            },
-            {
-                "title": "",
-                "image": ""
             }
         ]
     },
     {
-        "type": "game development",
+        "type": "Game Dev",
         "technologies": [
             {
                 "title": "Unity3D",
@@ -157,10 +221,6 @@
             {
                 "title": "OpenGL",
                 "image": "devicon-opengl-plain"
-            },
-            {
-                "title": "Vulkan",
-                "image": "devicon-vulkan-plain"
             },
             {
                 "title": "Blender",
